@@ -10,7 +10,7 @@ export default function ButtonContainer({ setCount, locked }) {
 }
 
 function CountButton({ type, setCount, locked }) {
-  const handleClick = () => {
+  const handleClick = (event) => {
     setCount((prev) => {
       if (type === "minus") {
         const newCount = prev - 1;
@@ -26,6 +26,8 @@ function CountButton({ type, setCount, locked }) {
         return newCount;
       }
     });
+
+    event.currentTarget.blur();
   };
 
   return (
