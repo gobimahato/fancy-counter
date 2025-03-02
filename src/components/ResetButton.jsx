@@ -10,6 +10,7 @@ export default function ResetButton({ setCount }) {
   return (
     <button onClick={handleClick} className="reset-btn">
       <ResetIcon className="reset-btn-icon" />
+      <span className="tooltip">Reset</span>
     </button>
   );
 }
