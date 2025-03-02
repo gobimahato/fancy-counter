@@ -4,7 +4,7 @@
 
 ![Fancy Counter](./public/preview.png)
 
-## 🔗 <a href="" target="_blank" rel="noopener noreferrer">View on Netlify</a>
+## 🔗 <a href="https://fancy-counter-gobi.netlify.app/" target="_blank" rel="noopener noreferrer">View on Netlify</a>
 
 ## 🚀 Features
 
